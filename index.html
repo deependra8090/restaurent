@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishwas Sweet & Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <h1>
+      <img src="logo.jpeg" alt="Vishwas Logo" class="logo">
+      <span class="logo"></span> Vishwas Sweet & Restaurant
+    </h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#book">Book Table</a>
+    </nav>
+  </header>
+
+  <!-- Slideshow -->
+  <section id="home" class="slideshow">
+    <img src="r1.jpg" class="active" alt="Restaurant Interior">
+    <img src="r5.jpg" alt="Indian Food Table">
+    <img src="r6.jpg" alt="Restaurant Dining">
+    <div class="dots"><span class="active"></span><span></span><span></span></div>
+  </section>
+
+  <!-- Menu -->
+  <section id="menu">
+    <h2>Our Famous Dishes & Sweets</h2>
+    <div class="menu-grid">
+      <div class="dish">
+        <img src="mix.jpg" alt="Mix mithai">
+        <h3>Mix mithai</h3>
+        <p>₹660</p>
+      </div>
+      <div class="dish">
+        <img src="samosa.jpg" alt="Samosa">
+        <h3>Samosa</h3>
+        <p>₹15</p>
+      </div>
+      <div class="dish">
+        <img src="pasties.jpg" alt="Peties">
+        <h3>Peties</h3>
+        <p>₹35</p>
+      </div>
+      <div class="dish">
+        <img src="mewa.jpg" alt="Mewa Bite">
+        <h3>Mewa Bite</h3>
+        <p>₹1380</p>
+      </div>
+      <div class="dish">
+        <img src="soan papdi.jpg" alt="Soan Papdi">
+        <h3>Soan Papdi</h3>
+        <p>₹660</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Welcome to Vishwas Sweet & Restaurant! We bring you authentic Indian cuisine and traditional sweets made with love. 
+      Our mission is to provide delicious food with a warm dining experience. Come and taste the tradition!
+    </p>
+  </section>
+
+  <!-- Customer Reviews -->
+  <section id="reviews">
+    <h2>What Our Customers Say</h2>
+    <div class="reviews">
+      <div class="review">
+        <h3>Rohit Sharma</h3>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>The best sweets in town! The Gulab Jamun is just heavenly.</p>
+      </div>
+      <div class="review">
+        <h3>Ananya Gupta</h3>
+        <div class="stars">⭐⭐⭐⭐</div>
+        <p>Great ambiance and delicious food. Loved the Special Thali.</p>
+      </div>
+      <div class="review">
+        <h3>Arjun Mehta</h3>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>Amazing service and authentic flavors. Highly recommend!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Book Table -->
+  <section id="book">
+    <h2>Book a Table</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="date" name="date" required>
+      <input type="time" name="time" required>
+      <input type="number" name="guests" placeholder="Number of Guests" required>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Vishwas Sweet & Restaurant. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
