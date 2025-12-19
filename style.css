@@ -37,10 +37,6 @@ header h1 {
   border-radius: 50%;
   object-fit: cover;
 }
-.by Gayatri Yadav{
-  display:block;
-  font-family:cursive;
-}
 
 nav {
   display: flex;
@@ -252,4 +248,5 @@ footer {
   padding: 25px 10px;
   font-size: 0.9rem;
 }
+
 
