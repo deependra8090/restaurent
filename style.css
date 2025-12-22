@@ -37,6 +37,16 @@ header h1 {
   border-radius: 50%;
   object-fit: cover;
 }
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.subtitle {
+  font-size:0.99rem; /* smaller text */
+  color:#c62828;
+  font-family: 'Cormorant Garamond', serif;
+}
+
 
 nav {
   display: flex;
@@ -248,5 +258,6 @@ footer {
   padding: 25px 10px;
   font-size: 0.9rem;
 }
+
 
 
